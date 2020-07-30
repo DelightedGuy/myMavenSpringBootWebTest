@@ -3,6 +3,8 @@ package com.jgzn.test.config;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+import java.util.List;
+
 //提供该注解将配置文件的值映射到类上使用。prefix表示配置文件属性的前缀声明
 //@ConfigurationProperties(prefix = "jdbc")
 @Data
@@ -11,4 +13,10 @@ public class JdbcProperties {
     String url;
     String userName;
     String passWord;
+    User user = new User();
+    class User{
+        String name;
+        int age;
+        List<String> language;
+    }
 }

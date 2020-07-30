@@ -1,0 +1,12 @@
+jdbc:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/yun6
+  userName: root
+  passWord: 123456
+  user:
+    name: yyy
+    age: 21
+    language:
+      -java
+      -C++
+      -python

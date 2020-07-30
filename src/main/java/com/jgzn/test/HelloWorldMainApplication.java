@@ -13,4 +13,5 @@ public class HelloWorldMainApplication {
         //spring应用启动起来
         SpringApplication.run(HelloWorldMainApplication.class,args);
     }
+
 }
