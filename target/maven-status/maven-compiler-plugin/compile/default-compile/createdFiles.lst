@@ -1,0 +1,3 @@
+com\jgzn\test\config\JdbcConfig.class
+com\jgzn\test\controller\HelloController.class
+com\jgzn\test\HelloWorldMainApplication.class
