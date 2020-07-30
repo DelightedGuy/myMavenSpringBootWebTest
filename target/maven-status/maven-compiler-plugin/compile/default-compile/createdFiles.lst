@@ -1,3 +1,4 @@
-com\jgzn\test\config\JdbcConfig.class
+com\jgzn\test\config\JdbcProperties.class
 com\jgzn\test\controller\HelloController.class
+com\jgzn\test\config\JdbcConfig.class
 com\jgzn\test\HelloWorldMainApplication.class
